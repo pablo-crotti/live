@@ -112,6 +112,10 @@ composer require pusher/pusher-php-server
 composer require pusher/pusher-push-notifications
 ```
 ---
+> **_NOTE:_** ⚠️ For sending notifications, you need to make the queue work in laravel with the command `php artisan queue:work`
+
+---
+
 ## Integration
 ### WebSockets (Real-time events)
 #### Create a Laravel Event
